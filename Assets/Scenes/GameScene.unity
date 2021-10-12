@@ -714,8 +714,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coinText: {fileID: 1131129135}
-  TimerText: {fileID: 0}
-  timeleft: 0
+  TimerText: {fileID: 460284367}
+  timeleft: 30
   timeRemaining: 0
 --- !u!65 &327837077
 BoxCollider:
@@ -1828,7 +1828,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coinText: {fileID: 1131129135}
-  TimerText: {fileID: 0}
+  TimerText: {fileID: 460284367}
   timeleft: 0
   timeRemaining: 0
 --- !u!1 &723085446
@@ -2855,7 +2855,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coinText: {fileID: 1131129135}
-  TimerText: {fileID: 0}
+  TimerText: {fileID: 460284367}
   timeleft: 0
   timeRemaining: 0
 --- !u!54 &1367326770
@@ -3413,7 +3413,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coinText: {fileID: 1131129135}
-  TimerText: {fileID: 0}
+  TimerText: {fileID: 460284367}
   timeleft: 0
   timeRemaining: 0
 --- !u!1001 &1653139138
@@ -3504,7 +3504,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coinText: {fileID: 1131129135}
-  TimerText: {fileID: 0}
+  TimerText: {fileID: 460284367}
   timeleft: 0
   timeRemaining: 0
 --- !u!54 &1797469428
@@ -3814,6 +3814,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coinText: {fileID: 1131129135}
-  TimerText: {fileID: 0}
+  TimerText: {fileID: 460284367}
   timeleft: 0
   timeRemaining: 0

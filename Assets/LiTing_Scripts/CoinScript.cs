@@ -18,6 +18,7 @@ public class CoinScript : MonoBehaviour
     void Start()
     {
         coinText.GetComponent<Text>().text = "Coin : 0 ";
+        TimerText.GetComponent<Text>().text = "Timer : 0 ";
     }
 
     // Update is called once per frame
@@ -47,7 +48,7 @@ public class CoinScript : MonoBehaviour
         // check for collision with player and Update UI 
         if (other.gameObject.tag.Equals("Player"))
         {
-            totalcoins+=10;
+            totalcoins++;
             Destroy(gameObject);
             coinText.GetComponent<Text>().text = "Coin : " + totalcoins;
         }
