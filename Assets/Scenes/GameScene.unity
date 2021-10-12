@@ -1829,7 +1829,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   coinText: {fileID: 1131129135}
   TimerText: {fileID: 460284367}
-  timeleft: 0
+  timeleft: 30
   timeRemaining: 0
 --- !u!1 &723085446
 GameObject:
@@ -2856,7 +2856,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   coinText: {fileID: 1131129135}
   TimerText: {fileID: 460284367}
-  timeleft: 0
+  timeleft: 30
   timeRemaining: 0
 --- !u!54 &1367326770
 Rigidbody:
@@ -3414,7 +3414,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   coinText: {fileID: 1131129135}
   TimerText: {fileID: 460284367}
-  timeleft: 0
+  timeleft: 30
   timeRemaining: 0
 --- !u!1001 &1653139138
 PrefabInstance:
@@ -3505,7 +3505,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   coinText: {fileID: 1131129135}
   TimerText: {fileID: 460284367}
-  timeleft: 0
+  timeleft: 30
   timeRemaining: 0
 --- !u!54 &1797469428
 Rigidbody:
@@ -3815,5 +3815,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   coinText: {fileID: 1131129135}
   TimerText: {fileID: 460284367}
-  timeleft: 0
+  timeleft: 30
   timeRemaining: 0
