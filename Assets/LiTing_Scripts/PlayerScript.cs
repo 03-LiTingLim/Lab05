@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class PlayerScript : MonoBehaviour
 {
+    public ParticleSystem ps;
+    public ParticleSystem explosion;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,6 +24,11 @@ public class PlayerScript : MonoBehaviour
         if (collision.gameObject.tag.Equals("Water"))
         {
             SceneManager.LoadScene("GameLose");
+        }
+
+        if (collision.gameObject.tag.Equals("Coin"))
+        {
+            explosion.Play();
         }
     }
 }
